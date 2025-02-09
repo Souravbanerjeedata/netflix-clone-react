@@ -24,6 +24,7 @@
 }
 .card-list .card p {
   position: absolute;
-  right: 7px;
-  bottom: 0;
+  right: 10px;
+  bottom: 10px;
+  text-shadow: 0 0 15px #000;
 }

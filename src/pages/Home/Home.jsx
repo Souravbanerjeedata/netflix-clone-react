@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import TitleCards from "../../components/TitleCards/TitleCards";
+import Footer from "../../components/Footer/Footer";
 import heroBanner from "../../assets/hero_banner.jpg";
 import herotitle from "../../assets/hero_title.png";
 import playIcon from "../../assets/play_icon.png";
@@ -39,6 +40,7 @@ const Home = () => {
         <TitleCards title={"Upcoming"} />
         <TitleCards title={"Top Picks for you"} />
       </div>
+      <Footer />
     </div>
   );
 };
