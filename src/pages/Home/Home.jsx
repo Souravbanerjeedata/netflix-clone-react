@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
+import TitleCards from "../../components/TitleCards/TitleCards";
 import heroBanner from "../../assets/hero_banner.jpg";
 import herotitle from "../../assets/hero_title.png";
 import playIcon from "../../assets/play_icon.png";
@@ -29,6 +30,7 @@ const Home = () => {
               More Info
             </button>
           </div>
+          <TitleCards />
         </div>
       </div>
     </div>
